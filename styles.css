@@ -21,7 +21,7 @@ html{
 .statimage:hover{
     opacity: 60%;
     max-height: 200px;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 .container{
     display: grid;
@@ -59,8 +59,8 @@ html{
 
 div {
     
-    border: 0x solid rgba(255, 255, 255, 0.473);
-    color: rgb(255, 254, 254);
+    border: 0px solid rgba(255, 255, 255, 0.473);
+    color: rgb(255, 255, 255);
     border-radius: 3px;
   }
 
@@ -88,7 +88,7 @@ a{
 }
 
 a:visited {
-    color: rgb(224, 232, 235); /* Set the same color as the default link color */
+    color: rgb(224, 232, 235); 
   }
   
 
