@@ -23,7 +23,7 @@ html{
 
 .rightside{
     display: grid;
-    grid-template-rows: 0.67fr 2.5fr 4fr;
+    grid-template-rows: 0.67fr 2fr 4fr;
 }
 
 
@@ -57,7 +57,7 @@ a{
 }
 
 a:visited {
-    color: rgb(112, 112, 112); /* Set the same color as the default link color */
+    color: rgb(224, 232, 235); /* Set the same color as the default link color */
   }
   
 
