@@ -39,16 +39,17 @@ html{
     font-size: small;
 }
 
-.project-images{
+ .project-images{
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    grid-template-columns: 2fr 2fr 2fr;
+} 
+ 
 
 
 div {
     background-color: #041129;
-    border: 1px solid rgba(255, 255, 255, 0.473);
+    border: 0px solid rgba(255, 255, 255, 0.473);
     color: rgb(255, 254, 254);
     border-radius: 3px;
   }
@@ -90,14 +91,37 @@ i{
     font-size: 35px
 }
 
-img{
+.projectimg{
+    max-height: 250px;
+}
+
+ img{
+    transition: transform 0.3s ease; 
+}
+
+img:hover{
+    transform: scale(1.2); 
+}
+
+b{
+    font-weight:bolder;
+}
+
+.github{
     height: 50px;
     width: 50px;
 }
 
+.under-image{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
 .mid{
     display:grid;
-    grid-template-rows: 1fr 3fr 4fr;
+    grid-template-rows: 1fr 4fr 4fr;
 }
 
 .main{
