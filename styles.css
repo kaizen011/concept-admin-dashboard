@@ -95,12 +95,17 @@ i{
     max-height: 250px;
 }
 
+.projectimg{
+    opacity: 70%;
+}
+
  img{
     transition: transform 0.3s ease; 
 }
 
 img:hover{
-    transform: scale(1.2); 
+    transform: scale(1.2);
+    opacity: 90%; 
 }
 
 b{
@@ -231,7 +236,7 @@ body {
     height: 100%;
     z-index: -1;
     filter: blur(8px); /* Add a blur effect */
-    background-image: linear-gradient(to bottom, #07070a, #122268, #3a6494);
+    background-image: linear-gradient(to bottom, #0f2536, #263047, #08090a);
     background-size: cover;
     background-position: center;
 }
